@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Java Program') {
             steps {
-                bat 'HelloWorld Main'
+                bat 'HelloWorld'
             }
         }
 
